@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Spandiv
+Theme URI: https://spandiv.xyz/
+Author: Spandiv
+Version: 0.1
+Author URI: https://spandiv.xyz/
+Description: Tema khusus untuk teman saya yang mau berkembang biak :D
+*/
+
+:root{
+--primary: #34571A;
+--primary-s: #e8f3e1;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: unset;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-s);
+}
+body{font-family: 'Dongle', sans-serif; font-size: 1.3rem; line-height: 20px;}
+.bg-primary{background-color:var(--primary)!important;}
+.bg-primary-s{background-color:var(--primary-s)!important;}
+.text-primary{color:var(--primary)!important;}
+.text-primary-s{color:var(--primary-s)!important;}
+.rounded-1 {border-radius: .5rem !important;}
+.rounded-2 {border-radius: 1rem !important;}
+.rounded-3 {border-radius: 1.5rem !important;}
+.rounded-4 {border-radius: 2rem !important;}
+/*primary*/
+.btn-primary {color:var(--bs-white);background-color:var(--primary);border-color:var(--primary)}
+.btn-primary:hover {color:var(--primary);background-color:var(--primary-s);border-color:var(--primary-s)}
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {color:var(--bs-white);background-color:var(--primary);border-color:var(--primary);box-shadow:0 0 0 .25rem var(--primary-s)}
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {color:var(--bs-white);background-color:var(--primary);border-color:var(--primary)}
+.btn-check:active+.btn-primary:focus,
+.btn-check:checked+.btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show>.btn-primary.dropdown-toggle:focus {box-shadow:0 0 0 .25rem var(--primary-s);}
+.btn-primary.disabled,.btn-primary:disabled {color:var(--primary);background-color:var(--bs-white);border-color:var(--primary-s)}
+
+.btn-glow{animation: glow 2s ease-in-out infinite;}
+.navbar .nav-item{text-align:center}
+.navbar .nav-item i{font-size:2rem;}
+.navbar .nav-link{cursor: pointer;}
+.navbar .navbar-nav .nav-link{color:var(--primary);}
+
+.section-overlay{animation: fade .1s ease-out;}
+#protokol{z-index: 10001;}
+
+.fa-home-lg-alt:active:before,
+.fa-home-lg-alt:focus:before,
+.fa-home-lg-alt:visited:before{animation: beranda .25s ease;}
+.fa-rings-wedding:active:before,
+.fa-rings-wedding:focus:before,
+.fa-rings-wedding:visited:before{animation: pasangan .25s ease;}
+.fa-calendar-alt:active:before,
+.fa-calendar-alt:focus:before,
+.fa-calendar-alt:visited:before{animation: acara .25s ease;}
+.fa-photo-video:active:before,
+.fa-photo-video:focus:before,
+.fa-photo-video:visited:before{animation: galeri .25s ease;}
+.fa-envelope-open-text:active:before,
+.fa-envelope-open-text:focus:before,
+.fa-envelope-open-text:visited:before{animation: reservasi .25s ease;}
+
+@keyframes fade {from{opacity: 1;}to{opacity: 0;}}
+@keyframes glow {0%{opacity: 1;}50%{opacity: 0;}100%{opacity: 1;}}
+@keyframes beranda {0%{top: 0px;}50%{top: -6px;}100%{top: 0px;}}
+@keyframes pasangan {0%{transform: rotate(0deg);}50%{transform: rotate(360deg);}100%{transform: rotate(0deg);}}
+@keyframes acara {0%{left: 0px;}50%{left: -6px;}100%{right: 0px;}}
+@keyframes galeri {0%{left: 6px;}100%{left: 0px;}}
+@keyframes reservasi {0%{top: 0px;}50%{top: -6px;}100%{top: 0px;}}
