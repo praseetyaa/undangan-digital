@@ -191,7 +191,7 @@
                                     <h1 class="fw-bold text-center" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Akad Nikah</h1>
                                     <p class="d-flex align-items-center">
                                         <i class="position-absolute fad fa-calendar-alt"></i>
-                                        <span class="ms-5">Sabtu, 26 Februari 2022</span>
+                                        <span class="ms-5">Minggu, 20 Februari 2022</span>
                                     </p>
                                     <p class="d-flex align-items-center">
                                         <i class="position-absolute fad fa-clock"></i>
@@ -208,11 +208,11 @@
                                     <h1 class="fw-bold text-center" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Resepsi Pernikahan</h1>
                                     <p class="d-flex align-items-center">
                                         <i class="position-absolute fad fa-calendar-alt"></i>
-                                        <span class="ms-5">Sabtu, 2 Februari 2022</span>
+                                        <span class="ms-5">Minggu, 20 Februari 2022</span>
                                     </p>
                                     <p class="d-flex align-items-center">
                                         <i class="position-absolute fad fa-clock"></i>
-                                        <span class="ms-5">06.00 WIB</span>
+                                        <span class="ms-5">10.00 WIB s.d 13.00 WIB</span>
                                     </p>
                                     <p class="d-flex align-items-center">
                                         <i class="position-absolute fad fa-map-marker-alt"></i>
