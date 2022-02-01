@@ -1,10 +1,10 @@
 // modal autoload
-// $(window).on('load', function() {
-// 	$('#protokol').modal('show');
-// 	if ( $('body').hasClass('modal-open') ) {
-// 		$('.section-overlay').css('z-index','1');        
-// 	};
-// });
+$(window).on('load', function() {
+	$('#protokol').modal('show');
+	if ( $('body').hasClass('modal-open') ) {
+		$('.section-overlay').css('z-index','1');        
+	};
+});
 
 $('[data-bs-dismiss="modal"]').click(function(){
 	$('.section-overlay').css('z-index','10000');
