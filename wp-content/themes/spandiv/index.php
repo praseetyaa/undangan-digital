@@ -93,8 +93,7 @@
                     <div class="row justify-content-center">
                         <div class="col-md-5">
                             <div>
-                                <h1>Putri & Agus</h1>
-                                <p>Beranda</p>
+                                <h1 class="fw-bold" style="font-family: 'Parisienne', cursive;">Putri & Agus</h1>
                             </div>
                         </div>
                     </div>
@@ -121,8 +120,8 @@
                                         </div>
                                         <img src="<?= get_template_directory_uri() ?>/assets/images/frame/couple_decor_9.webp" alt="images" width="300" height="300" style="position:relative; z-index: 3;">
                                         <div>
-                                           <h4 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Rr. Fauziah Putri Pebrianingsih, S.Psi</h4>
-                                            <p class="fw-bold mb-0">Putri dari:</p>
+                                           <h1 class="fw-bold" style="font-family: 'Parisienne', cursive;">Rr. Fauziah Putri Pebrianingsih, S.Psi</h1>
+                                            <p class="fw-bold mb-0">Putri pertama dari:</p>
                                             <p class="mb-0">Drs. Rahmat Farid M.H.</p>
                                             <p class="mb-0">Rngt. Sri Hastuti Ningsih</p>
                                             <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">&</h1>
@@ -136,8 +135,8 @@
                                         </div>
                                         <img src="<?= get_template_directory_uri() ?>/assets/images/frame/couple_decor_9.webp" alt="images" width="300" height="300" style="position:relative; z-index: 3;">
                                         <div>
-                                           <h4 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Agus Salim, S.Psi., M.Psi., Psikolog</h4>
-                                            <p class="fw-bold mb-0">Putra dari:</p>
+                                           <h1 class="fw-bold" style="font-family: 'Parisienne', cursive;">Agus Salim, S.Psi., M.Psi., Psikolog</h1>
+                                            <p class="fw-bold mb-0">Putra bungsu dari:</p>
                                             <p class="mb-0">H. Syarifudin</p>
                                             <p class="mb-0">Hj. Aisyah</p>
                                         </div>
