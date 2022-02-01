@@ -78,7 +78,7 @@
                             <div class="position-relative mt-4" style="z-index: 3;">
                                 <h5 class="text-uppercase">Undangan Pernikahan</h5>
                                 <h1 style="font-family: 'Parisienne', cursive; font-size: 3rem;">Putri & Agus</h1>
-                                <h5><i class="fad fa-heart"></i> Kamis 20 Februari 1990 <i class="fad fa-heart"></i></h5>
+                                <h5><i class="fad fa-heart"></i> Minggu 20 Februari 2022 <i class="fad fa-heart"></i></h5>
                                 <button class="btn btn-outline-light btn-lg mt-3 rounded-3 px-5 btn-glow" id="buka-undangan">Buka Undangan</button>
                             </div>
                         </div>
