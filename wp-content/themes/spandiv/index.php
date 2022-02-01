@@ -88,7 +88,7 @@
         </section>
         <section class="section-home" id="beranda">
             <div class="d-flex flex-column text-primary text-center justify-content-between align-items-center" style="min-height: 100vh;">
-                <div class="row m-0 justify-content-center text-start"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/imageS/frame/home1.png" alt="frame" class="img-fluid" style="max-width: 70%;"></div></div>
+                <div class="row m-0 justify-content-center text-start"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/images/frame/home1.png" alt="frame" class="img-fluid" style="max-width: 70%;"></div></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-5">
@@ -99,12 +99,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="row m-0 justify-content-center text-end"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/imageS/frame/home2.png" alt="frame" class="img-fluid" style="max-width: 70%;"></div></div>
+                <div class="row m-0 justify-content-center text-end"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/images/frame/home2.png" alt="frame" class="img-fluid" style="max-width: 70%;"></div></div>
             </div>
         </section>
         <section class="section-home" id="pasangan">
             <div class="d-flex flex-column text-primary text-center justify-content-between align-items-center bg-secondary-s" style="min-height: 100vh;">
-                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/imageS/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="transform: rotate(180deg); top: -1.5rem;"></div></div>
+                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/images/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="transform: rotate(180deg); top: -1.5rem;"></div></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-5">
@@ -147,12 +147,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/imageS/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="bottom: -1.5rem;"></div></div>
+                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/images/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="bottom: -1.5rem;"></div></div>
             </div>
         </section>
         <section class="section-home" id="acara">
             <div class="d-flex flex-column text-primary text-center justify-content-between align-items-center bg-secondary-s" style="min-height: 100vh;">
-                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/imageS/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="transform: rotate(180deg); top: -1.5rem;"></div></div>
+                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/images/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="transform: rotate(180deg); top: -1.5rem;"></div></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-5">
@@ -244,12 +244,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/imageS/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="bottom: -1.5rem;"></div></div>
+                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/images/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="bottom: -1.5rem;"></div></div>
             </div>
         </section>
         <section class="section-home" id="galeri">
             <div class="d-flex flex-column text-primary text-center justify-content-between align-items-center bg-secondary-s" style="min-height: 100vh;">
-                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/imageS/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="transform: rotate(180deg); top: -1.5rem;"></div></div>
+                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/images/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="transform: rotate(180deg); top: -1.5rem;"></div></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-5">
@@ -259,12 +259,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/imageS/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="bottom: -1.5rem;"></div></div>
+                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/images/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="bottom: -1.5rem;"></div></div>
             </div>
         </section>
         <section class="section-home" id="reservasi">
             <div class="d-flex flex-column text-primary text-center justify-content-between align-items-center bg-secondary-s" style="min-height: 100vh;">
-                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/imageS/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="transform: rotate(180deg); top: -1.5rem;"></div></div>
+                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/images/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="transform: rotate(180deg); top: -1.5rem;"></div></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-5">
@@ -274,7 +274,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/imageS/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="bottom: -1.5rem;"></div></div>
+                <div class="row m-0 justify-content-center"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/images/frame/quotes_decor_9.webp" alt="frame" class="img-fluid position-relative" style="bottom: -1.5rem;"></div></div>
             </div>
         </section>
     </div>
