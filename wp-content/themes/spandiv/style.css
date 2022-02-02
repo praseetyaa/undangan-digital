@@ -36,7 +36,7 @@ Description: Tema khusus untuk teman saya yang mau berkembang biak :D
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary-s);
 }
-body{font-family: 'Dongle', sans-serif; font-size: 1.5rem; line-height: 20px; }
+
 .bg-primary{background-color:var(--primary)!important;}
 .bg-primary-s{background-color:var(--primary-s)!important;}
 .bg-secondary{background-color: var(--secondary)!important;}
@@ -63,6 +63,23 @@ body{font-family: 'Dongle', sans-serif; font-size: 1.5rem; line-height: 20px; }
 .btn-primary:active:focus,
 .show>.btn-primary.dropdown-toggle:focus {box-shadow:0 0 0 .25rem var(--primary-s);}
 .btn-primary.disabled,.btn-primary:disabled {color:var(--primary);background-color:var(--bs-white);border-color:var(--primary-s)}
+/*primary-s*/
+.btn-primary-s {color:var(--primary);background-color:var(--primary-s);border-color:var(--primary-s)}
+.btn-primary-s:hover {color:var(--primary-s);background-color:var(--primary);border-color:var(--primary)}
+.btn-check:focus+.btn-primary-s,
+.btn-primary-s:focus {color:var(--primary);background-color:var(--primary-s);border-color:var(--primary-s);box-shadow:0 0 0 .25rem var(--primary)}
+.btn-check:active+.btn-primary-s,
+.btn-check:checked+.btn-primary-s,
+.btn-primary-s.active,
+.btn-primary-s:active,
+.show>.btn-primary-s.dropdown-toggle {color:var(--primary);background-color:var(--primary-s);border-color:var(--primary-s)}
+.btn-check:active+.btn-primary-s:focus,
+.btn-check:checked+.btn-primary-s:focus,
+.btn-primary-s.active:focus,
+.btn-primary-s:active:focus,
+.show>.btn-primary-s.dropdown-toggle:focus {box-shadow:0 0 0 .25rem var(--primary);}
+.btn-primary-s.disabled,.btn-primary-s:disabled {color:var(--primary-s);background-color:var(--primary);border-color:var(--primary)}
+
 
 .btn-glow{animation: glow 2s ease-in-out infinite;}
 .navbar .nav-item{text-align:center}

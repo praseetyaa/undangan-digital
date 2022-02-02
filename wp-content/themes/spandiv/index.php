@@ -159,29 +159,29 @@
                                 <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Menuju Bahagia</h1>
                                 <p>Siang dan malam berganti begitu cepat, di antara saat-saat mendebarkan yang belum pernah kami rasakan sebelumnya. Kami nantikan kehadiran para keluarga dan sahabat, untuk menjadi saksi ikrar janji suci kami di hari yang bahagia.</p>
                             </div>
-                            <div class="row">
+                            <div class="row" id="timer">
                                 <div class="col-3">
                                     <div class="text-center bg-primary-s rounded-2 p-3">
-                                        <h2 class="fw-bold mb-0">120</h2>
+                                        <h2 class="fw-bold mb-0" id="days"></h2>
                                         <p class="mb-0">Hari</p>
                                     </div>
                                 </div>
                                 <div class="col-3">
                                     <div class="text-center bg-primary-s rounded-2 p-3">
-                                        <h2 class="fw-bold mb-0">22</h2>
-                                        <p class="mb-0">Hari</p>
+                                        <h2 class="fw-bold mb-0" id="hours"></h2>
+                                        <p class="mb-0">Jam</p>
                                     </div>
                                 </div>
                                 <div class="col-3">
                                     <div class="text-center bg-primary-s rounded-2 p-3">
-                                        <h2 class="fw-bold mb-0">11</h2>
-                                        <p class="mb-0">Hari</p>
+                                        <h2 class="fw-bold mb-0" id="minutes"></h2>
+                                        <p class="mb-0">Menit</p>
                                     </div>
                                 </div>
                                 <div class="col-3">
                                     <div class="text-center bg-primary-s rounded-2 p-3">
-                                        <h2 class="fw-bold mb-0">1</h2>
-                                        <p class="mb-0">Hari</p>
+                                        <h2 class="fw-bold mb-0" id="seconds"></h2>
+                                        <p class="mb-0">Detik</p>
                                     </div>
                                 </div>
                             </div>
@@ -269,6 +269,10 @@
                         <div class="col-md-5">
                             <div class="text-center text-primary">
                                 <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Reservasi</h1>
+
+<?php
+echo do_shortcode("[wishlist id='all']");
+?>
                             </div>
                         </div>
                     </div>
@@ -277,6 +281,14 @@
             </div>
         </section>
     </div>
+
+    <!-- player control -->
+    <div class="fixed-top player-btn" style="display: none;">
+        <button class="btn btn-primary-s float-end mt-2 me-2" id="play-pause"><i class="fa fa-pause"></i></button>
+    </div>
+    <audio id="track">
+      <source src="<?= get_template_directory_uri() ?>/assets/music/Melamarmu.mp3" type="audio/mpeg" />
+    </audio>
 
     <!-- Modal Protokol-->
     <div class="modal fade" id="protokol" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
