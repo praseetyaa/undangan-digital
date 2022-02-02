@@ -1,0 +1,6 @@
+# Files
+*.log
+
+# Folders
+/_config/node_modules
+/wp-release/

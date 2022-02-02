@@ -1,0 +1,99 @@
+label.error {
+	font-weight : bold;
+	clear       : both;
+}
+
+input.error, textarea.error {
+	border : 2px solid red;
+}
+
+.rsvpFormField {
+	margin : 10px 0px;
+}
+
+#rsvpCustomGreeting {
+	margin-top    : 20px;
+	margin-bottom : 20px;
+}
+
+.rsvpBorderTop {
+	border-top : 1px solid #ccc;
+}
+
+.rsvpAdditionalAttendee {
+	text-align : left;
+	border-top : 1px solid #ccc;
+}
+
+.rsvpCheckboxCustomQ {
+	float         : left;
+	padding-right : 10px;
+}
+
+.rsvpClear {
+	clear       : both;
+	height      : 1px;
+	line-height : 1px;
+}
+
+#rsvpPlugin input {
+	display    : inline;
+	visibility : visible;
+}
+
+#rsvpPlugin #rsvpForm .rsvpFormField input[type="radio"], #rsvpPlugin #rsvpForm .rsvpFormField input[type="checkbox"] {
+	display : inline-block;
+}
+
+.rsvpFormField label {
+	display : inline;
+}
+
+.rsvpParagraph {
+	position : relative;
+}
+
+.rsvpParagraph .required {
+	position : relative;
+}
+
+#rsvp_upgrade_to_pro_link {
+	color       : gold;
+}
+
+table.rsvp-plugin_page_rsvp-admin-questions #the-list tr {
+	cursor : move;
+}
+
+
+.rsvp-left-panel {
+	float : left;
+	width : 68%;
+}
+
+.rsvp-right-panel {
+	float : right;
+	width : 32%;
+}
+
+.rsvp-answered-questions {
+	border : 1px solid #ccc;
+}
+
+.rsvp-answered-questions th {
+	padding          : 10px;
+	background-color : #f0f0f1;
+}
+
+.rsvp-answered-questions tr {
+	background : #fff;
+	padding    : 10px;
+}
+
+.rsvp-answered-questions tr:nth-child(odd) {
+	background : #f0f0f1;
+}
+
+.rsvpArea, .rsvpParagraph, #rsvpPlugin {
+	display:block;
+}
