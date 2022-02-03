@@ -124,9 +124,7 @@
                                         <img src="<?= get_template_directory_uri() ?>/assets/images/frame/couple_decor_9.webp" alt="images" width="300" height="300" style="position:relative; z-index: 3;">
                                         <div>
                                            <h1 class="fw-bold" style="font-family: 'Parisienne', cursive;">Rr. Fauziah Putri Pebrianingsih, S.Psi</h1>
-                                            <p class="fw-bold mb-0">Putri pertama dari:</p>
-                                            <p class="mb-0">Drs. Rahmat Farid M.H.</p>
-                                            <p class="mb-0">Rngt. Sri Hastuti Ningsih</p>
+                                            <p class="mb-0">Putri pertama dari Drs. Rahmat Farid M.H. & Rngt. Sri Hastuti Ningsih</p>
                                             <p class="mb-0">Ngasem RT. 02/RW. 11 Desa Gunung Pring, Kec Muntilan, Kab. Magelang, Jawa Tengah</p>
                                             <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">&</h1>
                                         </div>
@@ -140,9 +138,7 @@
                                         <img src="<?= get_template_directory_uri() ?>/assets/images/frame/couple_decor_9.webp" alt="images" width="300" height="300" style="position:relative; z-index: 3;">
                                         <div>
                                            <h1 class="fw-bold" style="font-family: 'Parisienne', cursive;">Agus Salim, S.Psi., M.Psi., Psikolog</h1>
-                                            <p class="fw-bold mb-0">Putra bungsu dari:</p>
-                                            <p class="mb-0">H. Syarifudin</p>
-                                            <p class="mb-0">Hj. Aisyah</p>
+                                            <p class="mb-0">Putra bungsu dari H. Syarifudin & Hj. Aisyah</p>
                                             <p class="mb-0">Radebari RT. 005/RW. 001 Desa Ngali, Kec. Belo, Kab. Bima, Nusa Tenggara Barat (NTB)</p>
                                         </div>
                                     </div>
