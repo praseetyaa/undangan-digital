@@ -1,10 +1,10 @@
 // modal autoload
-$(window).on('load', function() {
-	$('#protokol').modal('show');
-	if ( $('body').hasClass('modal-open') ) {
-		$('.section-overlay').css('z-index','1');        
-	};
-});
+// $(window).on('load', function() {
+// 	$('#protokol').modal('show');
+// 	if ( $('body').hasClass('modal-open') ) {
+// 		$('.section-overlay').css('z-index','1');        
+// 	};
+// });
 
 $('[data-bs-dismiss="modal"]').click(function(){
 	$('.section-overlay').css('z-index','10000');
@@ -21,7 +21,7 @@ $(document).ready(function () {
 $('body').css('overflow', 'hidden');
 // $('nav').css('display','none');
 $('#buka-undangan').click(function(){
-	$('body').css('overflow', 'visible');
+	$('body').css('overflow-y', 'visible');
 	$('nav').css({
 		"opacity":"0",
 		"z-index":"5",
@@ -60,29 +60,43 @@ jQuery(document).ready(function() {
 // countdown timer
 function makeTimer() {
 
-	//		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");	
-		var endTime = new Date("20 February 2022 6:00:00 GMT+07:00");			
-			endTime = (Date.parse(endTime) / 1000);
+//		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");	
+	var endTime = new Date("20 February 2022 6:00:00 GMT+07:00");			
+		endTime = (Date.parse(endTime) / 1000);
 
-			var now = new Date();
-			now = (Date.parse(now) / 1000);
+		var now = new Date();
+		now = (Date.parse(now) / 1000);
 
-			var timeLeft = endTime - now;
+		var timeLeft = endTime - now;
 
-			var days = Math.floor(timeLeft / 86400); 
-			var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
-			var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
-			var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
-  
-			if (hours < "10") { hours = "0" + hours; }
-			if (minutes < "10") { minutes = "0" + minutes; }
-			if (seconds < "10") { seconds = "0" + seconds; }
+		var days = Math.floor(timeLeft / 86400); 
+		var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+		var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
+		var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
 
-			$("#days").html(days);
-			$("#hours").html(hours);
-			$("#minutes").html(minutes);
-			$("#seconds").html(seconds);		
+		if (hours < "10") { hours = "0" + hours; }
+		if (minutes < "10") { minutes = "0" + minutes; }
+		if (seconds < "10") { seconds = "0" + seconds; }
 
-	}
+		$("#days").html(days);
+		$("#hours").html(hours);
+		$("#minutes").html(minutes);
+		$("#seconds").html(seconds);		
 
-	setInterval(function() { makeTimer(); }, 1000);
+}
+setInterval(function() { makeTimer(); }, 1000);
+
+// siple lightbox
+$('.imglightbox').simpleLightbox();
+
+$('.lightBoxVideoLink').simpleLightbox();
+
+// clipboard
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+  alert('Berhasil Di Salin');
+}

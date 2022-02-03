@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
 
+    <!-- lightbox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.min.css" integrity="sha512-5CXltlbBBUSagP9f7vGb78xbExT4oaXtvUGXShbcSss85Tw5wG1fz7fFBF6o1Gp2teZQYvwf70Sz2LYzvNF4Eg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
     <link rel="stylesheet" href="<?= bloginfo('template_url'); ?>/style.css" type="text/css" media="screen" />
 
     <?php if(is_front_page()) : ?>
@@ -36,7 +39,7 @@
   <body <?php body_class('spandiv'); ?>>
     <div id="spandiv">
         <nav class="navbar navbar-expand navbar-light bg-primary-s shadow fixed-bottom" style="display: none;">
-          <div class="container">
+          <div class="container justify-content-around">
             <div class="collapse navbar-collapse">
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
@@ -71,7 +74,7 @@
                         <div class="vh-100 d-flex flex-column text-white text-center justify-content-center align-items-center">
                             <div class="position-relative text-center">
                                 <div class="rounded-circle" style="position: absolute; z-index: 2; left: 50%; top:50%; transform: translate(-50%, 15%); overflow: hidden; width: 200px; height: 200px;">
-                                    <img src="<?= get_template_directory_uri() ?>/assets/images/IMG20220130100403.jpg" alt="images" class="w-100">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/images/IMG_0712.jpg" alt="images" class="w-100">
                                 </div>
                             </div>
                             <img src="<?= get_template_directory_uri() ?>/assets/images/frame/couple_decor_9.webp" alt="images" width="250" height="250" style="position:relative; z-index: 3;">
@@ -87,18 +90,18 @@
             </div>
         </section>
         <section class="section-home" id="beranda">
-            <div class="d-flex flex-column text-primary text-center justify-content-between align-items-center" style="min-height: 100vh;">
-                <div class="row m-0 justify-content-center text-start"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/images/frame/home1.png" alt="frame" class="img-fluid" style="max-width: 70%;"></div></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-md-5">
-                            <div>
-                                <h1 class="fw-bold" style="font-family: 'Parisienne', cursive;">Putri & Agus</h1>
-                            </div>
+            <div class="text-primary text-center bg-secondary-s" style="min-height: 100vh;">
+                <div class="row m-0 justify-content-center text-start">
+                    <div class="col-md-5 p-0">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="frame" class="vh-100 img-fluid cover-home">
+
+                        <div class="position-absolute text-center" style="top: 50%;left: 50%; transform: translate(-50%, 100%)">
+                            <h5>The Wedding Of</h5>
+                            <h1 class="fw-bold" style="font-family: 'Parisienne', cursive;">Putri & Agus</h1>
+                            <h5>Minggu&nbsp;20&nbsp;Februari&nbsp;2022</h5>
                         </div>
                     </div>
                 </div>
-                <div class="row m-0 justify-content-center text-end"><div class="col-md-5 p-0"><img src="<?= get_template_directory_uri() ?>/assets/images/frame/home2.png" alt="frame" class="img-fluid" style="max-width: 70%;"></div></div>
             </div>
         </section>
         <section class="section-home" id="pasangan">
@@ -115,7 +118,7 @@
                                     <div class="col-12">
                                         <div class="position-relative text-center">
                                             <div class="rounded-circle" style="position: absolute; z-index: 2; left: 50%; top:50%; transform: translate(-50%, 10%); overflow: hidden; width: 250px; height: 250px;">
-                                                <img src="<?= get_template_directory_uri() ?>/assets/images/IMG20220130100403.jpg" alt="images" class="w-100">
+                                                <img src="<?= get_template_directory_uri() ?>/assets/images/IMG_0885.jpg" alt="images" class="w-100">
                                             </div>
                                         </div>
                                         <img src="<?= get_template_directory_uri() ?>/assets/images/frame/couple_decor_9.webp" alt="images" width="300" height="300" style="position:relative; z-index: 3;">
@@ -124,13 +127,14 @@
                                             <p class="fw-bold mb-0">Putri pertama dari:</p>
                                             <p class="mb-0">Drs. Rahmat Farid M.H.</p>
                                             <p class="mb-0">Rngt. Sri Hastuti Ningsih</p>
+                                            <p class="mb-0">Ngasem RT. 02/RW. 11 Desa Gunung Pring, Kec Muntilan, Kab. Magelang, Jawa Tengah</p>
                                             <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">&</h1>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="position-relative text-center">
                                             <div class="rounded-circle" style="position: absolute; z-index: 2; left: 50%; top:50%; transform: translate(-50%, 10%); overflow: hidden; width: 250px; height: 250px;">
-                                                <img src="<?= get_template_directory_uri() ?>/assets/images/IMG20220130100403.jpg" alt="images" class="w-100">
+                                                <img src="<?= get_template_directory_uri() ?>/assets/images/IMG_0874.jpg" alt="images" class="w-100">
                                             </div>
                                         </div>
                                         <img src="<?= get_template_directory_uri() ?>/assets/images/frame/couple_decor_9.webp" alt="images" width="300" height="300" style="position:relative; z-index: 3;">
@@ -139,6 +143,7 @@
                                             <p class="fw-bold mb-0">Putra bungsu dari:</p>
                                             <p class="mb-0">H. Syarifudin</p>
                                             <p class="mb-0">Hj. Aisyah</p>
+                                            <p class="mb-0">Radebari RT. 005/RW. 001 Desa Ngali, Kec. Belo, Kab. Bima, Nusa Tenggara Barat (NTB)</p>
                                         </div>
                                     </div>
                                 </div>
@@ -217,7 +222,7 @@
                                         <i class="position-absolute fad fa-map-marker-alt"></i>
                                         <span class="ms-5">Gedung Balai Desa Gunungpring Jl. Kyai Raden Santri, Gunung Pring, Kec. Muntilan, Kab. Magelang, Jawa Tengah</span>
                                     </p>
-                                    <iframe class="rounded-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.847608294062!2d110.275492114777!3d-7.591560094525716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8babd0a368bd%3A0x7a632da01a25d1b8!2sKANTOR%20KEPALA%20DESA%20GUNUNGPRING!5e0!3m2!1sid!2sid!4v1643735375947!5m2!1sid!2sid" width="100%" height="450" style="border:solid var(--primary);" allowfullscreen="" loading="lazy"></iframe>
+                                    <iframe class="rounded-2 mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.847608294062!2d110.275492114777!3d-7.591560094525716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8babd0a368bd%3A0x7a632da01a25d1b8!2sKANTOR%20KEPALA%20DESA%20GUNUNGPRING!5e0!3m2!1sid!2sid!4v1643735375947!5m2!1sid!2sid" width="100%" height="450" style="border:solid var(--primary);" allowfullscreen="" loading="lazy"></iframe>
                                     <a class="btn btn-primary btn-lg w-100 rounded-2" href="https://goo.gl/maps/8jdAaYf1JKdMam1UA" target="_blank">Buka Di Google Maps</a>
                                 </div>
                             </div>
@@ -236,7 +241,7 @@
                                         <i class="position-absolute fad fa-map-marker-alt"></i>
                                         <span class="ms-5">Lapangan SMPN 1 Belo Desa Ngali Kec. Belo, Kab. Bima, NTB</span>
                                     </p>
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.6776609596545!2d118.72538641478371!3d-8.626911393800423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db5812c5e922265%3A0x30e9f72582e67615!2sSMP%20Negeri%201%20Belo!5e0!3m2!1sid!2sid!4v1643738255439!5m2!1sid!2sid" width="100%" height="450" style="border: solid var(--primary);" allowfullscreen="" loading="lazy" class="rounded-2"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.6776609596545!2d118.72538641478371!3d-8.626911393800423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db5812c5e922265%3A0x30e9f72582e67615!2sSMP%20Negeri%201%20Belo!5e0!3m2!1sid!2sid!4v1643738255439!5m2!1sid!2sid" width="100%" height="450" style="border: solid var(--primary);" allowfullscreen="" loading="lazy" class="rounded-2 mb-3"></iframe>
                                     <a class="btn btn-primary btn-lg w-100 rounded-2" href="https://goo.gl/maps/7KXtAEfeiyAfvRrF6" target="_blank">Buka Di Google Maps</a>
                                 </div>
                             </div>
@@ -252,8 +257,25 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-5">
-                            <div class="text-center text-primary">
+                            <div class="text-center text-primary mb-4">
                                 <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Galery Of Love</h1>
+                            </div>
+                            <div class="gallery">
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0694.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0694.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0697.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0697.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0709.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0709.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0712.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0712.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0718.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0718.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0728.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0728.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0741.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0741.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0760.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0760.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0812.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0812.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0854.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0854.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0862.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0862.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0898.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0898.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0905.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0905.jpg');"></a>
+                                <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0911.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0911.jpg');"></a>
+                               <iframe class="rounded-2" width="100%" height="315" src="https://www.youtube.com/embed/pgAOOMxTk7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -267,12 +289,96 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-5">
-                            <div class="text-center text-primary">
-                                <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Reservasi</h1>
+                            <div class="text-center text-primary mb-4">
+                                <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Kalimat Mutiara</h1>
+                                <p>"Kami Pernah enggan menatap Menghabiskan waktu untuk meratap Hingga kami dipertemukan disaat yang tepat diwaktu yang tepat. Dipersatukan dalam satu atap dalam untaian kalimat akad yang khidmat."</p>
+                            </div>
+                            <div>
+                                <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Cerita Cinta</h1>
 
-<?php
-echo do_shortcode("[wishlist id='all']");
-?>
+                                <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Wedding Gift</h1>
+                                <p>Bagi Keluarga dan Sahabat yang ingin mengirimkan hadiah, silahkan mengirimkannya melalui :</p>
+                                <div class="card border-0 rounded-2 shadow mb-4" style="background-image: url(https://jadinikah.co/wp-content/uploads/2021/12/BG_HIJAU-150x150-2.jpg); background-repeat: no-repeat; background-size: cover;">
+                                    <div class="card-body">
+                                        <img class="mb-3" src="<?= get_template_directory_uri()  ?>/assets/images/bri.png" alt="bank bri" class="img-fluid" width="100">
+                                        <p class="fw-bold">a.n Fauziah Putri Pebrianingsih</p>
+                                        <button class="btn btn-primary" onclick="copyToClipboard('#p1')"><span id="p1">124701006507504</span></button>
+                                    </div>
+                                </div>
+                                <div class="card border-0 rounded-2 shadow mb-4" style="background-image: url(https://jadinikah.co/wp-content/uploads/2021/12/BG_HIJAU-150x150-2.jpg); background-repeat: no-repeat; background-size: cover;">
+                                    <div class="card-body">
+                                        <img class="mb-3" src="<?= get_template_directory_uri()  ?>/assets/images/gopay.png" alt="bank bri" class="img-fluid" width="100">
+                                        <p class="fw-bold">a.n Fauziah Putri</p>
+                                        <button class="btn btn-primary" onclick="copyToClipboard('#p2')"><span id="p2">082257968562</span></button>
+                                    </div>
+                                </div>
+                                <div class="card border-0 rounded-2 shadow mb-4" style="background-image: url(https://jadinikah.co/wp-content/uploads/2021/12/BG_HIJAU-150x150-2.jpg); background-repeat: no-repeat; background-size: cover;">
+                                    <div class="card-body">
+                                        <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Kirim Kado</h1>
+                                        <p class="mb-0">Drs. Rahmat Farid M.H / Fauziah Putri</p>
+                                        <p class="mb-0">Ngasem RT 02 RW 11 Desa Gunung Pring, Kecamatan Muntilan, Kabupaten Magelang, Jawa tengah.</p>
+                                    </div>
+                                </div>
+                                <div class="text-start">
+                                    <div class="text-center">
+                                        <h5>Konfirmasi kehadiran Anda di acara pernikahan</h5>
+                                        <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Putri & Agus</h1>
+                                    </div>
+                                    <div class="card border-0 rounded-2 shadow mb-4" style="background-image: url(https://jadinikah.co/wp-content/uploads/2021/12/BG_HIJAU-150x150-2.jpg); background-repeat: no-repeat; background-size: cover;">
+                                        <div class="card-body">
+                                            <div class="mb-3">
+                                              <label for="nama" class="form-label">Nama</label>
+                                              <input type="text" class="form-control" id="nama" placeholder="Tulis Nama Anda">
+                                            </div>
+                                            <div class="mb-3">
+                                              <label for="jumlah" class="form-label">Jumlah</label>
+                                              <input type="text" class="form-control" id="jumlah" placeholder="Isi Jumlah Tamu">
+                                            </div>
+
+                                            <label for="radio" class="form-label">Konfirmasi Kehadiran</label>
+                                            <div class="form-check">
+                                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                                              <label class="form-check-label" for="flexRadioDefault1">
+                                                ya, Saya akan Datang
+                                              </label>
+                                            </div>
+                                            <div class="form-check">
+                                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                              <label class="form-check-label" for="flexRadioDefault2">
+                                                Saya Masih Ragu
+                                              </label>
+                                            </div>
+                                            <div class="form-check">
+                                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                              <label class="form-check-label" for="flexRadioDefault3">
+                                                 Maaf, Saya Tidak Bisa Datang
+                                              </label>
+                                            </div>
+                                            <button class="btn btn-primary mt-3">Reservasi Via WhatsApp</button>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <p>Dengan undangan ini meminta Do'a & Restu undangan sekalian agar keluarga anak kami kelak diridhoi Allah SWT dan menjadi keluarga yang sakinah mawaddah warahmah</p>
+                                        <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Putri & Agus</h1>
+                                    </div>
+                                    <div>
+                                        <p class="text-center fw-bold mb-4">Supported by:</p>
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-6 text-center">
+                                                <a href="https://connectedness.id/" class="text-decoration-none text-primary" target="_blank">
+                                                    <img class="mx-auto" src="<?= get_template_directory_uri() ?>/assets/images/connectedness.png" alt="connectedness" width="50">
+                                                    <p>Connectedness</p>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 text-center">
+                                                <a href="https://spandiv.xyz/" class="text-decoration-none text-primary" target="_blank">
+                                                    <img class="mx-auto rounded-1" src="<?= get_template_directory_uri() ?>/assets/images/spandiv.png" alt="connectedness" width="120">
+                                                    <p>Spandiv</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -333,9 +439,12 @@ echo do_shortcode("[wishlist id='all']");
         </div>
       </div>
     </div>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.jquery.min.js" integrity="sha512-/KPL35RUhlitNiujTD78F6lyczxSeUrAsdPdEgkktIfmV28iY51t1oLOfAGB7fOnci6tntAwFdVpkAvlcXt89Q==" crossorigin="anonymous" referrerpolicy="no-referrer" type="text/javascript"></script>
+
     <script src="<?= bloginfo('template_url'); ?>/app.js"></script>
   </body>
 </html>

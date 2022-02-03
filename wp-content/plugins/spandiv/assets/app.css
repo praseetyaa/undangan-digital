@@ -1,0 +1,67 @@
+/*
+Theme Name: Spandiv
+Theme URI: https://spandiv.xyz/
+Author: Spandiv
+Version: 0.1
+Author URI: https://spandiv.xyz/
+Description: Dilarang mengubah tanpa izin! kontak dev.spandiv@gmail.com untuk melakukan perubahan
+*/
+
+:root {
+    --primary: #0066FF;
+    --primary-s: #EDF4FF;
+    --secondary: #FF992C;
+    --secondary-s: #FFF1E1;
+    --red-s: #FAE3E5;
+    --blue-s: #DCEAFF;
+    --yellow-s: #FFF6DB;
+    --green-s: #D5F7E7;
+    --white: #FFFFFF;
+}
+
+.rounded-1 {border-radius: .1rem !important;}
+.rounded-2 {border-radius: .25rem !important;}
+.rounded-3 {border-radius: .3rem !important;}
+.rounded-4 {border-radius: 1rem !important;}
+.text-primary {color: var(--primary)!important}
+.bg-primary {background-color: var(--primary)!important}
+.position-relative{position: relative;}
+.d-flex{display: flex;}
+.align-items-center{align-items: center;}
+.me-4{margin-right: 1.5rem;}
+/*primary*/
+.btn-primary {color:var(--white)!important;background-color:var(--primary)!important;border-color:var(--primary)!important}
+.btn-primary:hover {color:var(--primary)!important;background-color:var(--primary-s)!important;border-color:var(--primary-s)!important}
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {color:var(--white)!important;background-color:var(--primary)!important;border-color:var(--primary)!important;box-shadow:0 0 0 .25rem var(--primary-s)!important}
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {color:var(--white)!important;background-color:var(--primary)!important;border-color:var(--primary)!important}
+.btn-check:active+.btn-primary:focus,
+.btn-check:checked+.btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show>.btn-primary.dropdown-toggle:focus {box-shadow:0 0 0 .25rem var(--primary-s)!important;}
+.btn-primary.disabled,.btn-primary:disabled {color:var(--primary);background-color:var(--white)!important;border-color:var(--primary-s)!important}
+/*secondary*/
+.btn-secondary{color:var(--bs-white)!important;background-color:var(--secondary)!important;border-color:var(--secondary)!important}
+.btn-secondary:hover{color:var(--secondary)!important;background-color:var(--secondary-s)!important;border-color:var(--secondary-s)!important}
+.btn-check:focus+.btn-secondary,
+.btn-secondary:focus{color:var(--bs-white)!important;background-color:var(--secondary)!important;border-color:var(--secondary)!important;box-shadow:0 0 0 .25rem var(--secondary-s)!important}
+.btn-check:active+.btn-secondary,
+.btn-check:checked+.btn-secondary,
+.btn-secondary.active,
+.btn-secondary:active,
+.show>.btn-secondary.dropdown-toggle{color:var(--bs-white)!important;background-color:var(--secondary)!important;border-color:var(--secondary)!important}
+.btn-check:active+.btn-secondary:focus,
+.btn-check:checked+.btn-secondary:focus,
+.btn-secondary.active:focus,
+.btn-secondary:active:focus,
+.show>.btn-secondary.dropdown-toggle:focus{box-shadow:0 0 0 .25rem var(--secondary-s)!important;}
+.btn-secondary.disabled,.btn-secondary:disabled{color:var(--secondary)!important;background-color:var(--bs-white)!important;border-color:var(--secondary-s)!important}
+.card{padding: 0 !important; background-color: transparent!important; margin-top: 0!important;}
+.notice-warning {
+    border-left-color: var(--primary);
+}
