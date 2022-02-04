@@ -95,11 +95,11 @@
                     <div class="col-md-5 p-0">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="frame" class="vh-100 img-fluid cover-home">
 
-                        <div class="position-absolute text-center" style="top: 50%;left: 50%; transform: translate(-50%, 100%)">
+<!--                         <div class="position-absolute text-center" style="top: 50%;left: 50%; transform: translate(-50%, 100%)">
                             <h5>The Wedding Of</h5>
                             <h1 class="fw-bold" style="font-family: 'Parisienne', cursive;">Putri & Agus</h1>
                             <h5>Minggu&nbsp;20&nbsp;Februari&nbsp;2022</h5>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -187,58 +187,64 @@
                                 </div>
                             </div>
                             <div class="akad mt-5 text-start">
-                                <div class="bg-white rounded-2 p-3 shadow">
-                                    <h1 class="fw-bold text-center" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Akad Nikah</h1>
-                                    <p class="d-flex align-items-center">
-                                        <i class="position-absolute fad fa-calendar-alt"></i>
-                                        <span class="ms-5">Minggu, 20 Februari 2022</span>
-                                    </p>
-                                    <p class="d-flex align-items-center">
-                                        <i class="position-absolute fad fa-clock"></i>
-                                        <span class="ms-5">06.00 WIB</span>
-                                    </p>
-                                    <p class="d-flex align-items-center">
-                                        <i class="position-absolute fad fa-map-marker-alt"></i>
-                                        <span class="ms-5">Kediaman Mempelai Wanita, Ngasem RT 02 RW 11 Desa Gunung Pring Kec Muntilan, Kab Magelang, Jawa Tengah </span>
-                                    </p>
+                                <div class="card border-0 rounded-2 shadow mb-4">
+                                    <div class="card-body">
+                                        <h1 class="fw-bold text-center" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Akad Nikah</h1>
+                                        <p class="d-flex align-items-center">
+                                            <i class="position-absolute fad fa-calendar-alt"></i>
+                                            <span class="ms-4">Minggu, 20 Februari 2022</span>
+                                        </p>
+                                        <p class="d-flex align-items-center">
+                                            <i class="position-absolute fad fa-clock"></i>
+                                            <span class="ms-4">06.00 WIB</span>
+                                        </p>
+                                        <p class="d-flex align-items-center">
+                                            <i class="position-absolute fad fa-map-marker-alt"></i>
+                                            <span class="ms-4">Kediaman Mempelai Wanita, Ngasem RT 02 RW 11 Desa Gunung Pring Kec Muntilan, Kab Magelang, Jawa Tengah </span>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="resepsi mt-5 text-start">
-                                <div class="bg-white rounded-2 p-3 shadow">
-                                    <h1 class="fw-bold text-center" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Resepsi Pernikahan</h1>
-                                    <p class="d-flex align-items-center">
-                                        <i class="position-absolute fad fa-calendar-alt"></i>
-                                        <span class="ms-5">Minggu, 20 Februari 2022</span>
-                                    </p>
-                                    <p class="d-flex align-items-center">
-                                        <i class="position-absolute fad fa-clock"></i>
-                                        <span class="ms-5">10.00 WIB s.d 13.00 WIB</span>
-                                    </p>
-                                    <p class="d-flex align-items-center">
-                                        <i class="position-absolute fad fa-map-marker-alt"></i>
-                                        <span class="ms-5">Gedung Balai Desa Gunungpring Jl. Kyai Raden Santri, Gunung Pring, Kec. Muntilan, Kab. Magelang, Jawa Tengah</span>
-                                    </p>
-                                    <iframe class="rounded-2 mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.847608294062!2d110.275492114777!3d-7.591560094525716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8babd0a368bd%3A0x7a632da01a25d1b8!2sKANTOR%20KEPALA%20DESA%20GUNUNGPRING!5e0!3m2!1sid!2sid!4v1643735375947!5m2!1sid!2sid" width="100%" height="450" style="border:solid var(--primary);" allowfullscreen="" loading="lazy"></iframe>
-                                    <a class="btn btn-primary btn-lg w-100 rounded-2" href="https://goo.gl/maps/8jdAaYf1JKdMam1UA" target="_blank">Buka Di Google Maps</a>
+                                <div class="card border-0 rounded-2 shadow mb-4">
+                                    <div class="card-body">
+                                        <h1 class="fw-bold text-center" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Resepsi Pernikahan</h1>
+                                        <p class="d-flex align-items-center">
+                                            <i class="position-absolute fad fa-calendar-alt"></i>
+                                            <span class="ms-4">Minggu, 20 Februari 2022</span>
+                                        </p>
+                                        <p class="d-flex align-items-center">
+                                            <i class="position-absolute fad fa-clock"></i>
+                                            <span class="ms-4">10.00 WIB s.d 13.00 WIB</span>
+                                        </p>
+                                        <p class="d-flex align-items-center">
+                                            <i class="position-absolute fad fa-map-marker-alt"></i>
+                                            <span class="ms-4">Gedung Balai Desa Gunungpring Jl. Kyai Raden Santri, Gunung Pring, Kec. Muntilan, Kab. Magelang, Jawa Tengah</span>
+                                        </p>
+                                        <iframe class="rounded-2 mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.847608294062!2d110.275492114777!3d-7.591560094525716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8babd0a368bd%3A0x7a632da01a25d1b8!2sKANTOR%20KEPALA%20DESA%20GUNUNGPRING!5e0!3m2!1sid!2sid!4v1643735375947!5m2!1sid!2sid" width="100%" height="450" style="border:solid var(--primary);" allowfullscreen="" loading="lazy"></iframe>
+                                        <a class="btn btn-primary btn-lg w-100 rounded-2" href="https://goo.gl/maps/8jdAaYf1JKdMam1UA" target="_blank">Buka Di Google Maps</a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="ngunduh mt-5 text-start">
-                                <div class="bg-white rounded-2 p-3 shadow">
-                                    <h1 class="fw-bold text-center" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Ngunduh Mantu</h1>
-                                    <p class="d-flex align-items-center">
-                                        <i class="position-absolute fad fa-calendar-alt"></i>
-                                        <span class="ms-5">Sabtu, 26 Februari 2022</span>
-                                    </p>
-                                    <p class="d-flex align-items-center">
-                                        <i class="position-absolute fad fa-clock"></i>
-                                        <span class="ms-5">15.00 WITA s.d Selesai</span>
-                                    </p>
-                                    <p class="d-flex align-items-center">
-                                        <i class="position-absolute fad fa-map-marker-alt"></i>
-                                        <span class="ms-5">Lapangan SMPN 1 Belo Desa Ngali Kec. Belo, Kab. Bima, NTB</span>
-                                    </p>
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.6776609596545!2d118.72538641478371!3d-8.626911393800423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db5812c5e922265%3A0x30e9f72582e67615!2sSMP%20Negeri%201%20Belo!5e0!3m2!1sid!2sid!4v1643738255439!5m2!1sid!2sid" width="100%" height="450" style="border: solid var(--primary);" allowfullscreen="" loading="lazy" class="rounded-2 mb-3"></iframe>
-                                    <a class="btn btn-primary btn-lg w-100 rounded-2" href="https://goo.gl/maps/7KXtAEfeiyAfvRrF6" target="_blank">Buka Di Google Maps</a>
+                                <div class="card border-0 rounded-2 shadow mb-4">
+                                    <div class="card-body">
+                                        <h1 class="fw-bold text-center" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Ngunduh Mantu</h1>
+                                        <p class="d-flex align-items-center">
+                                            <i class="position-absolute fad fa-calendar-alt"></i>
+                                            <span class="ms-4">Sabtu, 26 Februari 2022</span>
+                                        </p>
+                                        <p class="d-flex align-items-center">
+                                            <i class="position-absolute fad fa-clock"></i>
+                                            <span class="ms-4">15.00 WITA s.d Selesai</span>
+                                        </p>
+                                        <p class="d-flex align-items-center">
+                                            <i class="position-absolute fad fa-map-marker-alt"></i>
+                                            <span class="ms-4">Lapangan SMPN 1 Belo Desa Ngali Kec. Belo, Kab. Bima, NTB</span>
+                                        </p>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.6776609596545!2d118.72538641478371!3d-8.626911393800423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db5812c5e922265%3A0x30e9f72582e67615!2sSMP%20Negeri%201%20Belo!5e0!3m2!1sid!2sid!4v1643738255439!5m2!1sid!2sid" width="100%" height="450" style="border: solid var(--primary);" allowfullscreen="" loading="lazy" class="rounded-2 mb-3"></iframe>
+                                        <a class="btn btn-primary btn-lg w-100 rounded-2" href="https://goo.gl/maps/7KXtAEfeiyAfvRrF6" target="_blank">Buka Di Google Maps</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -254,7 +260,7 @@
                     <div class="row justify-content-center">
                         <div class="col-md-5">
                             <div class="text-center text-primary mb-4">
-                                <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Galery Of Love</h1>
+                                <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Gallery Of Love</h1>
                             </div>
                             <div class="gallery">
                                 <a class="imglightbox" href="<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0694.jpg"><img class="rounded-2 mb-3 img-galery" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/galery/IMG_0694.jpg');"></a>
@@ -287,28 +293,91 @@
                         <div class="col-md-5">
                             <div class="text-center text-primary mb-4">
                                 <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Kalimat Mutiara</h1>
-                                <p>"Kami Pernah enggan menatap Menghabiskan waktu untuk meratap Hingga kami dipertemukan disaat yang tepat diwaktu yang tepat. Dipersatukan dalam satu atap dalam untaian kalimat akad yang khidmat."</p>
+                                <p>"Kami pernah enggan menatap Menghabiskan waktu untuk meratap Hingga kami dipertemukan di saat yang tepat, di waktu yang tepat Dipersatukan dalam satu atap, dalam untaian kalimat akad yang khidmat"</p>
                             </div>
                             <div>
                                 <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Cerita Cinta</h1>
 
+                                <div class="timeline-container">
+
+                                   <div class="timeline-block timeline-block-right">
+                                      <div class="date-left">
+                                        <span class="fw-bold">2012<br>September</span>
+                                      </div>
+                                      <div class="marker"></div>
+                                      <div class="timeline-content">
+                                         <h3>Awal Pertemuan</h3>
+                                         <img src="<?= get_template_directory_uri() ?>/assets/images/story/Awalbertemu.jpg" class="img-fluid rounded-1" alt="">
+                                         <p>Fakultas Psikologi Universitas Muhammadiyah Malang dan Himpunan Mahasiswa Islam, tak ada tempat tersebut, Putri & Agus tidak akan bertemu, namun setelah lulus tidak pernah bertemu lagi.</p>
+                                      </div>
+                                   </div>
+
+                                   <div class="timeline-block timeline-block-left">
+                                      <div class="marker"></div>
+                                      <div class="timeline-content">
+                                         <h3>Pertemuan Kembali</h3>
+                                         <img src="<?= get_template_directory_uri() ?>/assets/images/story/Pendekatankembali.jpg" class="img-fluid rounded-1" alt="">
+                                         <p>Setelah sekian tahun tidak pernah bertemu dikarenakan berbeda tujuan hidup, Putri milih bekerja di Jogjakarta, sedangkan Agus memilih untuk melanjutkan Studi Magister Profesi Psikologi di surakarta. Putri dan Agus bertemu kembali di salah satu cafe di Jogjakarta untuk sekedar silaturrahmi, dan semenjak saat itu, mereka berdua sering komunikasi namun tidak pernah terpikir untuk menjalin asmara.</p>
+                                      </div>
+                                      <div class="date-right">
+                                        <span class="fw-bold">2019<br>Februari</span>
+                                      </div>
+                                   </div>
+
+                                   <div class="timeline-block timeline-block-right">
+                                      <div class="date-left">
+                                        <span class="fw-bold">2021<br>September</span>
+                                      </div>
+                                      <div class="marker"></div>
+                                      <div class="timeline-content">
+                                         <h3>Pendekatan</h3>
+                                         <img src="<?= get_template_directory_uri() ?>/assets/images/story/Pendekatan.jpg" class="img-fluid rounded-1" alt="">
+                                         <p>Putri dan Agus intens berkomunikasi dan bertemu secara langsung, tepat di tanggal 7 September 2021, Agus menyatakan cintanya kepada putri.</p>
+                                      </div>
+                                   </div>
+
+                                   <div class="timeline-block timeline-block-left">
+                                      <div class="marker"></div>
+                                      <div class="timeline-content">
+                                         <h3>Lamaran</h3>
+                                         <img src="<?= get_template_directory_uri() ?>/assets/images/story/Lamaran.jpg" class="img-fluid rounded-1" alt="">
+                                         <p>Tepat di tanggal 6 Januari 2022 Agus menyakinkan putri untuk menikah. Keduanya sepakat untuk melangsungkan prosesi lamaran sebagai langkah awal menuju jenjang pernikahan</p>
+                                      </div>
+                                      <div class="date-right">
+                                        <span class="fw-bold">2022<br>Januari</span>
+                                      </div>
+                                   </div>
+
+                                   <div class="timeline-block timeline-block-right">
+                                      <div class="date-left">
+                                        <span class="fw-bold">2021<br>September</span>
+                                      </div>
+                                      <div class="marker"></div>
+                                      <div class="timeline-content">
+                                         <h3>Menjelang Pernikahan</h3>
+                                         <img src="<?= get_template_directory_uri() ?>/assets/images/story/Menjelangpernikahan.jpg" class="img-fluid rounded-1" alt="">
+                                         <p>Dan Insya Allah di tanggal 20 Februari 2022 kami akan melaksanakan pernikahan. Dengan niat beribadah karena ALLAH SWT, hidup bersama sehidup sesurga. Aamiin.</p>
+                                      </div>
+                                   </div>
+                                </div>
+
                                 <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Wedding Gift</h1>
                                 <p>Bagi Keluarga dan Sahabat yang ingin mengirimkan hadiah, silahkan mengirimkannya melalui :</p>
-                                <div class="card border-0 rounded-2 shadow mb-4" style="background-image: url(https://jadinikah.co/wp-content/uploads/2021/12/BG_HIJAU-150x150-2.jpg); background-repeat: no-repeat; background-size: cover;">
+                                <div class="card border-0 rounded-2 shadow mb-4">
                                     <div class="card-body">
                                         <img class="mb-3" src="<?= get_template_directory_uri()  ?>/assets/images/bri.png" alt="bank bri" class="img-fluid" width="100">
                                         <p class="fw-bold">a.n Fauziah Putri Pebrianingsih</p>
                                         <button class="btn btn-primary" onclick="copyToClipboard('#p1')"><span id="p1">124701006507504</span></button>
                                     </div>
                                 </div>
-                                <div class="card border-0 rounded-2 shadow mb-4" style="background-image: url(https://jadinikah.co/wp-content/uploads/2021/12/BG_HIJAU-150x150-2.jpg); background-repeat: no-repeat; background-size: cover;">
+                                <div class="card border-0 rounded-2 shadow mb-4">
                                     <div class="card-body">
                                         <img class="mb-3" src="<?= get_template_directory_uri()  ?>/assets/images/gopay.png" alt="bank bri" class="img-fluid" width="100">
                                         <p class="fw-bold">a.n Fauziah Putri</p>
                                         <button class="btn btn-primary" onclick="copyToClipboard('#p2')"><span id="p2">082257968562</span></button>
                                     </div>
                                 </div>
-                                <div class="card border-0 rounded-2 shadow mb-4" style="background-image: url(https://jadinikah.co/wp-content/uploads/2021/12/BG_HIJAU-150x150-2.jpg); background-repeat: no-repeat; background-size: cover;">
+                                <div class="card border-0 rounded-2 shadow mb-4">
                                     <div class="card-body">
                                         <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Kirim Kado</h1>
                                         <p class="mb-0">Drs. Rahmat Farid M.H / Fauziah Putri</p>
@@ -318,24 +387,23 @@
                                 <div class="text-start">
                                     <div class="text-center">
                                         <h5>Konfirmasi kehadiran Anda di acara pernikahan</h5>
-                                        <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Putri & Agus</h1>
                                     </div>
-                                    <div class="card border-0 rounded-2 shadow mb-4" style="background-image: url(https://jadinikah.co/wp-content/uploads/2021/12/BG_HIJAU-150x150-2.jpg); background-repeat: no-repeat; background-size: cover;">
+                                    <div class="card border-0 rounded-2 shadow mb-4">
                                         <div class="card-body">
                                             <div class="mb-3">
-                                              <label for="nama" class="form-label">Nama</label>
+                                              <label for="nama" class="form-label fw-bold">Nama</label>
                                               <input type="text" class="form-control" id="nama" placeholder="Tulis Nama Anda">
                                             </div>
                                             <div class="mb-3">
-                                              <label for="jumlah" class="form-label">Jumlah</label>
+                                              <label for="jumlah" class="form-label fw-bold">Jumlah</label>
                                               <input type="text" class="form-control" id="jumlah" placeholder="Isi Jumlah Tamu">
                                             </div>
 
-                                            <label for="radio" class="form-label">Konfirmasi Kehadiran</label>
+                                            <label for="radio" class="form-label fw-bold">Konfirmasi Kehadiran</label>
                                             <div class="form-check">
                                               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
                                               <label class="form-check-label" for="flexRadioDefault1">
-                                                ya, Saya akan Datang
+                                                Ya, Saya akan Datang
                                               </label>
                                             </div>
                                             <div class="form-check">

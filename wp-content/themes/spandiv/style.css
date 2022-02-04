@@ -82,7 +82,7 @@ Description: Tema khusus untuk teman saya yang mau berkembang biak :D
 
 
 .btn-glow{animation: glow 2s ease-in-out infinite;}
-.navbar{background-image: url(https://jadinikah.co/wp-content/uploads/2021/12/BG_HIJAU-150x150-2.jpg); background-repeat: no-repeat; background-size: cover;}
+.navbar{background-image: url('assets/images/backgrounds/BG_HIJAU-150x150-2.jpg'); background-repeat: no-repeat; background-size: cover;}
 .navbar .nav-item{text-align:center}
 .navbar .nav-item i{font-size:2rem;}
 .navbar .nav-link{cursor: pointer;}
@@ -92,10 +92,94 @@ Description: Tema khusus untuk teman saya yang mau berkembang biak :D
 #protokol{z-index: 10001;}
 .blured-bg{background: url("assets/images/IMG20220130123838.jpg"); background-repeat:no-repeat; background-size: cover; z-index: 1;}
 .blured-bg::before{content: ""; position: absolute; width: 100%; height: 100vh; backdrop-filter: blur(5px) brightness(.5);}
-.cover-home{background: url("assets/images/cover.png"); background-position: bottom; background-repeat:no-repeat; background-size: cover; z-index: 1;}
+.cover-home{background: url("assets/images/cover2.png"); background-position: bottom; background-repeat:no-repeat; background-size: cover; z-index: 1;}
 .sl-wrapper .sl-close{color: #fff; background-color: var(--primary); border-radius: .5rem; line-height: 47px;}
 .sl-overlay{background: #000}
 .img-galery{background-size: cover; background-position: top; width: 100%; height: 400px;}
+.card{background-image: url('assets/images/backgrounds/BG_HIJAU-150x150-2.jpg'); background-repeat: no-repeat; background-size: cover;}
+
+
+.timeline-container {
+   position: relative;
+   overflow: hidden;
+   text-align: left;
+   margin-bottom: 3rem;
+}
+
+.timeline-container:before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 50%;
+   margin-left: -1px;
+   width: 2px;
+   height: 100%;
+   background: var(--primary-s);
+   z-index: 1
+}
+
+.timeline-block {
+   width: -webkit-calc(50% + 8px);
+   width: -moz-calc(50% + 8px);
+   width: calc(50% + 8px);
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: flex;
+   -webkit-box-pack: justify;
+   -webkit-justify-content: space-between;
+   -moz-box-pack: justify;
+   justify-content: space-between;
+   clear: both;
+}
+
+.timeline-block-right {
+   float: right;
+}
+
+.timeline-block-left {
+   float: left;
+   direction: rtl
+}
+
+.timeline-container .date-left{position: absolute; left: 24%; text-align: end;}
+.timeline-container .date-right{position: absolute; right: 29%;}
+.timeline-container img{margin-bottom: 1rem;}
+
+.marker {
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   border: 2px solid #F5F7FA;
+   background: var(--primary);
+   margin-top: 10px;
+   z-index: 1
+}
+
+.timeline-content {
+   width: 95%;
+   padding: 0 15px;
+}
+
+/*@media screen and (max-width: 768px) {
+   .timeline-container:before {
+      left: 8px;
+      width: 2px;
+   }
+   .timeline-block {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+   .timeline-block-right {
+      float: none;
+   }
+
+   .timeline-block-left {
+      float: none;
+      direction: ltr;
+   }
+}*/
+
 
 .fa-home-lg-alt:active:before,
 .fa-home-lg-alt:focus:before,
