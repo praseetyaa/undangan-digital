@@ -100,3 +100,22 @@ function copyToClipboard(element) {
   $temp.remove();
   alert('Berhasil Di Salin');
 }
+
+// reservasi
+jQuery(function ($) {
+	$(document).on('click', '#btn-reservasi', function(e){
+		let nama = $("[name=nama]").val();
+		let jumlah = $("[name=jumlah]").val();
+		let kehadiran = $('input[name="konfirmasi"]:checked').val();
+
+		if (nama != '' && jumlah != '' && kehadiran != '') {
+			var url = 'https://wa.me/6283166745857?text=Hai, Putri dan Agus, saya ' + nama + ' ingin menginformasikan kehadiran di acara resepsi pernikahan pada Hari Minggu, 20 Februari 2022. ' + kehadiran + ' bersama ' + jumlah + ' orang. Terima kasih ya'; 
+	      window.open(url, '_blank');
+		}
+	
+	})
+
+})
+
+// aos
+AOS.init();
