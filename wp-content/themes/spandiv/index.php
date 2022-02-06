@@ -385,7 +385,7 @@
                                           </div>
                                          <h3>Lamaran</h3>
                                          <div class="card rounded-2 shadow border-0">
-                                             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="img-fluid img-galery rounded-1" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/story/Lamaran.jpg');">
+                                             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="img-fluid img-galery rounded-1" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/story/Lamaran.jpg'); background-position: center;">
                                              <div class="card-body">
                                                 <p>Tepat di tanggal 6 Januari 2022 Agus menyakinkan putri untuk menikah. Keduanya sepakat untuk melangsungkan prosesi lamaran sebagai langkah awal menuju jenjang pernikahan</p>
                                              </div>
@@ -397,7 +397,7 @@
                                       <div class="marker"><i class="fad fa-heart-circle h1"></i></div>
                                       <div class="timeline-content">
                                           <div class="date-left">
-                                            <span class="fw-bold">2021<br>September</span>
+                                            <span class="fw-bold">2022<br>Februari</span>
                                           </div>
                                          <h3>Menjelang Pernikahan</h3>
                                          <div class="card rounded-2 shadow border-0">
