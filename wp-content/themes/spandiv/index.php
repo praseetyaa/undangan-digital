@@ -129,7 +129,7 @@
                                         <img src="<?= get_template_directory_uri() ?>/assets/images/frame/couple_decor_9.webp" alt="images" width="300" height="300" style="position:relative; z-index: 3;">
                                         <div>
                                            <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 1.5rem;">Rr. Fauziah Putri Pebrianingsih, S.Psi</h1>
-                                            <p class="mb-0">Putri pertama dari Drs. Rahmat Farid M.H. & Rngt. Sri Hastuti Ningsih</p>
+                                            <p class="mb-0">Putri pertama dari<br>Drs. Rahmat Farid M.H. & Rngt. Sri Hastuti Ningsih</p>
                                             <p class="mb-0">Ngasem RT. 02/RW. 11 Desa Gunung Pring, Kec Muntilan, Kab. Magelang, Jawa Tengah</p>
                                             <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">&</h1>
                                         </div>
@@ -143,7 +143,7 @@
                                         <img src="<?= get_template_directory_uri() ?>/assets/images/frame/couple_decor_9.webp" alt="images" width="300" height="300" style="position:relative; z-index: 3;">
                                         <div>
                                            <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 1.5rem;">Agus Salim, S.Psi., M.Psi., Psikolog</h1>
-                                            <p class="mb-0">Putra bungsu dari H. Syarifudin & Hj. Aisyah</p>
+                                            <p class="mb-0">Putra bungsu dari<br>H. Syarifudin & Hj. Aisyah</p>
                                             <p class="mb-0">Radebari RT. 005/RW. 001 Desa Ngali, Kec. Belo, Kab. Bima, Nusa Tenggara Barat (NTB)</p>
                                         </div>
                                     </div>
