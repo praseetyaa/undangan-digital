@@ -11,7 +11,7 @@
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
 
@@ -86,7 +86,7 @@
                             <div class="position-relative mt-4" style="z-index: 3;">
                                 <h5 class="text-uppercase">Undangan Pernikahan</h5>
                                 <h1 style="font-family: 'Parisienne', cursive; font-size: 3rem;">Putri & Agus</h1>
-                                <h5><i class="fad fa-heart"></i> Minggu 20 Februari 2022 <i class="fad fa-heart"></i></h5>
+                                <h5><i class="fad fa-heart"></i> Minggu, 20 Februari 2022 <i class="fad fa-heart"></i></h5>
                                 <button class="btn btn-outline-light btn-lg mt-3 rounded-3 px-5 btn-glow" id="buka-undangan">Buka Undangan</button>
                             </div>
                         </div>
@@ -130,7 +130,7 @@
                                         <div>
                                            <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 1.5rem;">Rr. Fauziah Putri Pebrianingsih, S.Psi</h1>
                                             <p class="mb-0">Putri pertama dari<br>Drs. Rahmat Farid M.H. & Rngt. Sri Hastuti Ningsih</p>
-                                            <p class="mb-0">Ngasem RT. 02/RW. 11 Desa Gunung Pring, Kec Muntilan, Kab. Magelang, Jawa Tengah</p>
+                                            <p class="mb-0">Ngasem RT. 02/RW. 11 Desa Gunung Pring, Kec. Muntilan, Kab. Magelang, Jawa Tengah</p>
                                             <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">&</h1>
                                         </div>
                                     </div>
@@ -205,7 +205,7 @@
                                         </p>
                                         <p class="d-flex align-items-center">
                                             <i class="position-absolute fad fa-map-marker-alt"></i>
-                                            <span class="ms-4">Kediaman Mempelai Wanita, Ngasem RT 02 RW 11 Desa Gunung Pring Kec Muntilan, Kab Magelang, Jawa Tengah </span>
+                                            <span class="ms-4">Kediaman Mempelai Wanita, Ngasem RT 02 RW 11 Desa Gunung Pring Kec. Muntilan, Kab Magelang, Jawa Tengah </span>
                                         </p>
                                     </div>
                                 </div>
@@ -339,7 +339,7 @@
                                          <div class="card rounded-2 shadow border-0">
                                             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="card-img-top img-galery rounded-1" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/story/Awalbertemu.jpg');">
                                              <div class="card-body">
-                                                 <p>Fakultas Psikologi Universitas Muhammadiyah Malang dan Himpunan Mahasiswa Islam, tak ada tempat tersebut, Putri & Agus tidak akan bertemu, namun setelah lulus tidak pernah bertemu lagi.</p>
+                                                 <p>Fakultas Psikologi Universitas Muhammadiyah Malang dan Himpunan Mahasiswa Islam, jika tidak ada tempat tersebut, Putri & Agus tidak akan bertemu, namun setelah lulus tidak pernah bertemu lagi.</p>
                                              </div>
                                          </div>
                                       </div>
@@ -355,7 +355,7 @@
                                          <div class="card rounded-2 shadow border-0">
                                              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="card-img-top img-galery rounded-1" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/story/Pendekatankembali.jpg');">
                                              <div class="card-body">
-                                                 <p>Setelah sekian tahun tidak pernah bertemu dikarenakan berbeda tujuan hidup, Putri milih bekerja di Jogjakarta, sedangkan Agus memilih untuk melanjutkan Studi Magister Profesi Psikologi di surakarta. Putri dan Agus bertemu kembali di salah satu cafe di Jogjakarta untuk sekedar silaturrahmi, dan semenjak saat itu, mereka berdua sering komunikasi namun tidak pernah terpikir untuk menjalin asmara.</p>
+                                                 <p>Setelah sekian tahun tidak pernah bertemu dikarenakan berbeda tujuan hidup, Putri milih bekerja di Yogyakarta, sedangkan Agus memilih untuk melanjutkan Studi Magister Profesi Psikologi di Surakarta. Putri dan Agus bertemu kembali di salah satu cafe di Yogyakarta untuk sekedar silaturahmi, dan semenjak saat itu, mereka berdua sering komunikasi namun tidak pernah terpikir untuk menjalin asmara.</p>
                                              </div>
                                          </div>
                                       </div>
@@ -371,7 +371,7 @@
                                          <div class="card rounded-2 shadow border-0">
                                              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="img-fluid img-galery rounded-1" alt="" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/story/Pendekatan.jpg');">
                                              <div class="card-body">
-                                                <p>Putri dan Agus intens berkomunikasi dan bertemu secara langsung, tepat di tanggal 7 September 2021, Agus menyatakan cintanya kepada putri.</p>
+                                                <p>Putri dan Agus intens berkomunikasi dan bertemu secara langsung. Tepat di tanggal 7 September 2021, Agus menyatakan cintanya kepada putri.</p>
                                             </div>
                                          </div>
                                       </div>
@@ -428,11 +428,11 @@
                                         <button class="btn btn-primary" onclick="copyToClipboard('#p2')"><i class="fad fa-copy"></i> Copy No. GoPay</button>
                                     </div>
                                 </div>
-                                <div data-aos="fade-up" class="card border-0 rounded-2 shadow mb-4">
+                                <div data-aos="fade-up" class="card border-0 rounded-2 shadow mb-4 d-none">
                                     <div class="card-body">
                                         <h1 class="fw-bold" style="font-family: 'Parisienne', cursive; font-size: 3rem;">Kirim Kado</h1>
                                         <p class="mb-0">Drs. Rahmat Farid M.H / Fauziah Putri</p>
-                                        <p class="mb-0">Ngasem RT 02 RW 11 Desa Gunung Pring, Kecamatan Muntilan, Kabupaten Magelang, Jawa tengah.</p>
+                                        <p class="mb-0">Ngasem RT 02 RW 11 Desa Gunung Pring, Kecamatan Muntilan, Kabupaten Magelang, Jawa Tengah.</p>
                                         <p class="mb-0">083166745857</p>
                                     </div>
                                 </div>
